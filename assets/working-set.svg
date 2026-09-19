@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Raufi Musaddiq — Working Set</title>
+  <desc id="desc">A system-map style visualization of backend, product, and operations technologies.</desc>
+  <style>
+    :root {
+      --bg:#f3f1ea;
+      --panel:#ebe8df;
+      --panel2:#e4e0d6;
+      --fg:#171717;
+      --muted:#716d64;
+      --faint:#9e998f;
+      --line:#c7c2b7;
+      --accent:#30332f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:#111210;
+        --panel:#191a17;
+        --panel2:#20211e;
+        --fg:#f1efe8;
+        --muted:#aaa59a;
+        --faint:#77736c;
+        --line:#3b3c37;
+        --accent:#d5d2c8;
+      }
+    }
+    text { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace; }
+    .label { font-size:13px; letter-spacing:1.4px; fill:var(--muted); }
+    .tiny { font-size:11px; letter-spacing:1px; fill:var(--faint); }
+    .title { font-size:24px; font-weight:700; letter-spacing:-.4px; fill:var(--fg); }
+    .stack { font-size:15px; font-weight:600; fill:var(--fg); }
+    .chip { font-size:12px; fill:var(--muted); }
+    .big { font-size:60px; font-weight:700; fill:var(--panel2); }
+  </style>
+
+  <rect width="1200" height="520" fill="var(--bg)"/>
+
+  <!-- frame -->
+  <rect x="30" y="30" width="1140" height="460" rx="6" fill="none" stroke="var(--line)"/>
+
+  <!-- header -->
+  <text x="58" y="66" class="label">WORKING SET / RUNTIME TOPOLOGY</text>
+  <text x="1028" y="66" class="tiny">RM.SYSTEMS/01</text>
+  <line x1="58" y1="84" x2="1142" y2="84" stroke="var(--line)"/>
+
+  <!-- execution spine -->
+  <line x1="98" y1="416" x2="1102" y2="416" stroke="var(--line)" stroke-dasharray="5 7"/>
+  <circle cx="98" cy="416" r="5" fill="var(--accent)"/>
+  <circle cx="432" cy="416" r="5" fill="var(--accent)"/>
+  <circle cx="766" cy="416" r="5" fill="var(--accent)"/>
+  <circle cx="1102" cy="416" r="5" fill="var(--accent)"/>
+  <text x="80" y="445" class="tiny">REQUEST</text>
+  <text x="404" y="445" class="tiny">RUNTIME</text>
+  <text x="744" y="445" class="tiny">STATE</text>
+  <text x="1066" y="445" class="tiny">OBSERVE</text>
+
+  <!-- card 1 -->
+  <g>
+    <rect x="58" y="112" width="336" height="250" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="82" y="154" class="big">01</text>
+    <text x="82" y="191" class="label">BACKEND SYSTEMS</text>
+    <text x="82" y="228" class="title">Java · Spring · Go</text>
+
+    <rect x="82" y="258" width="114" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="96" y="278" class="chip">PostgreSQL</text>
+
+    <rect x="206" y="258" width="82" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="223" y="278" class="chip">Kafka</text>
+
+    <rect x="82" y="302" width="92" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="98" y="322" class="chip">REST/API</text>
+
+    <text x="82" y="349" class="tiny">OWNS STATE · HANDLES FAILURE</text>
+
+    <line x1="226" y1="362" x2="226" y2="416" stroke="var(--line)"/>
+    <circle cx="226" cy="362" r="3" fill="var(--accent)"/>
+  </g>
+
+  <!-- card 2 -->
+  <g>
+    <rect x="432" y="112" width="336" height="250" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="456" y="154" class="big">02</text>
+    <text x="456" y="191" class="label">PRODUCT SURFACE</text>
+    <text x="456" y="228" class="title">TypeScript · React</text>
+    <text x="456" y="252" class="stack">Next.js</text>
+
+    <rect x="456" y="278" width="90" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="471" y="298" class="chip">web apps</text>
+
+    <rect x="556" y="278" width="100" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="571" y="298" class="chip">integrations</text>
+
+    <rect x="666" y="278" width="76" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="681" y="298" class="chip">tools</text>
+
+    <text x="456" y="349" class="tiny">HUMAN INPUT · SYSTEM OUTPUT</text>
+
+    <line x1="600" y1="362" x2="600" y2="416" stroke="var(--line)"/>
+    <circle cx="600" cy="362" r="3" fill="var(--accent)"/>
+  </g>
+
+  <!-- card 3 -->
+  <g>
+    <rect x="806" y="112" width="336" height="250" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="830" y="154" class="big">03</text>
+    <text x="830" y="191" class="label">OPERATIONS</text>
+    <text x="830" y="228" class="title">Docker · Linux</text>
+    <text x="830" y="252" class="stack">Cloudflare · GitHub Actions</text>
+
+    <rect x="830" y="278" width="112" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="845" y="298" class="chip">deployment</text>
+
+    <rect x="952" y="278" width="112" height="30" rx="3" fill="var(--bg)" stroke="var(--line)"/>
+    <text x="967" y="298" class="chip">observability</text>
+
+    <text x="830" y="349" class="tiny">SHIP · WATCH · RECOVER</text>
+
+    <line x1="974" y1="362" x2="974" y2="416" stroke="var(--line)"/>
+    <circle cx="974" cy="362" r="3" fill="var(--accent)"/>
+  </g>
+
+  <!-- directional flow -->
+  <path d="M226 390 H600 H974" fill="none" stroke="var(--line)"/>
+  <path d="M588 384 L600 390 L588 396" fill="none" stroke="var(--accent)"/>
+  <path d="M962 384 L974 390 L962 396" fill="none" stroke="var(--accent)"/>
+
+  <text x="58" y="475" class="tiny">CORRECTNESS → RECOVERY → OPERABILITY</text>
+  <text x="916" y="475" class="tiny">BUILD / RUN / LEARN</text>
+</svg>
