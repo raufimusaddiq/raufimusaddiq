@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Raufi Musaddiq — Backend Engineer</title>
+  <desc id="desc">Minimal engineering-style profile header for Raufi Musaddiq.</desc>
+  <style>
+    :root {
+      --bg: #f3f1ea;
+      --fg: #171717;
+      --muted: #6f6b63;
+      --line: #c9c5bb;
+      --panel: #ebe8df;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111210;
+        --fg: #f1efe8;
+        --muted: #9c988f;
+        --line: #3a3a35;
+        --panel: #191a17;
+      }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+
+  <rect width="1200" height="360" fill="var(--bg)"/>
+  <rect x="40" y="40" width="1120" height="280" rx="4" fill="none" stroke="var(--line)"/>
+
+  <g class="mono" fill="var(--muted)" font-size="13" letter-spacing="1.2">
+    <text x="68" y="76">PROFILE / ENGINEERING</text>
+    <text x="1047" y="76">RM / 26</text>
+  </g>
+
+  <line x1="68" y1="96" x2="1132" y2="96" stroke="var(--line)"/>
+
+  <g class="sans" fill="var(--fg)">
+    <text x="68" y="164" font-size="44" font-weight="700" letter-spacing="-1.2">RAUFI MUSADDIQ</text>
+    <text x="68" y="205" font-size="22" font-weight="500">Backend engineer. I build for the messy parts.</text>
+  </g>
+
+  <g class="mono" font-size="13">
+    <rect x="68" y="238" width="144" height="32" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="84" y="259" fill="var(--fg)">BACKEND SYSTEMS</text>
+
+    <rect x="222" y="238" width="156" height="32" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="238" y="259" fill="var(--fg)">DEVELOPER TOOLING</text>
+
+    <rect x="388" y="238" width="144" height="32" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="404" y="259" fill="var(--fg)">AGENT SYSTEMS</text>
+
+    <rect x="542" y="238" width="112" height="32" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="558" y="259" fill="var(--fg)">APPLIED AI</text>
+  </g>
+
+  <g stroke="var(--line)" fill="none">
+    <path d="M760 145 H830 V124 H915 V176 H1000 V145 H1132"/>
+    <circle cx="760" cy="145" r="4" fill="var(--fg)" stroke="none"/>
+    <circle cx="830" cy="124" r="4" fill="var(--fg)" stroke="none"/>
+    <circle cx="915" cy="176" r="4" fill="var(--fg)" stroke="none"/>
+    <circle cx="1000" cy="145" r="4" fill="var(--fg)" stroke="none"/>
+    <circle cx="1132" cy="145" r="4" fill="var(--fg)" stroke="none"/>
+  </g>
+
+  <g class="mono" fill="var(--muted)" font-size="12">
+    <text x="760" y="203">request</text>
+    <text x="830" y="111">retry</text>
+    <text x="900" y="196">recover</text>
+    <text x="988" y="132">observe</text>
+  </g>
+
+  <line x1="68" y1="292" x2="1132" y2="292" stroke="var(--line)"/>
+  <text class="mono" x="68" y="310" fill="var(--muted)" font-size="12" letter-spacing=".7">github.com/raufimusaddiq</text>
+</svg>
