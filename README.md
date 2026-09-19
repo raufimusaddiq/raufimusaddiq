@@ -69,6 +69,20 @@ Built around explicit routing and operational visibility.
 
 <br>
 
+## Professional systems
+
+<p align="center">
+  <img src="./assets/professional-systems.svg" width="100%" alt="NDA-safe overview of Raufi Musaddiq's professional production engineering experience">
+</p>
+
+<p align="center">
+  <a href="https://raufimusaddiq.github.io/#experience">Professional experience</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://raufimusaddiq.github.io/resume.pdf">Public résumé</a>
+</p>
+
+<br>
+
 ## Engineering principles
 
 `01` **Correctness before cleverness.**  
