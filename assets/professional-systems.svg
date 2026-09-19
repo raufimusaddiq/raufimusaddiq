@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Raufi Musaddiq — Professional Systems</title>
+  <desc id="desc">NDA-safe overview of production engineering experience across identity, authentication, risk, verification, and payments.</desc>
+  <style>
+    :root { --bg:#f3f1ea; --panel:#ebe8df; --fg:#171717; --muted:#716d64; --faint:#9e998f; --line:#c7c2b7; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111210; --panel:#191a17; --fg:#f1efe8; --muted:#aaa59a; --faint:#77736c; --line:#3b3c37; } }
+    text { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace; }
+    .label { font-size:12px; letter-spacing:1.35px; fill:var(--muted); }
+    .tiny { font-size:10px; letter-spacing:.9px; fill:var(--faint); }
+    .hero { font-size:47px; font-weight:700; letter-spacing:-2px; fill:var(--fg); }
+    .box-title { font-size:15px; font-weight:700; fill:var(--fg); }
+    .box-sub { font-size:11px; fill:var(--muted); }
+  </style>
+  <rect width="1200" height="430" fill="var(--bg)"/>
+  <rect x="30" y="30" width="1140" height="370" rx="5" fill="none" stroke="var(--line)"/>
+  <text x="58" y="66" class="label">PROFESSIONAL SYSTEMS / PRODUCTION</text>
+  <text x="1010" y="66" class="tiny">PUBLIC SCOPE / NDA-SAFE</text>
+  <line x1="58" y1="84" x2="1142" y2="84" stroke="var(--line)"/>
+  <text x="58" y="145" class="hero">2018 — NOW</text>
+  <text x="58" y="174" class="label">BACKEND ENGINEERING ACROSS SECURITY-SENSITIVE SYSTEMS</text>
+  <line x1="58" y1="208" x2="1142" y2="208" stroke="var(--line)"/>
+  <g>
+    <rect x="58" y="230" width="198" height="86" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="76" y="258" class="tiny">01 / IDENTITY</text><text x="76" y="285" class="box-title">Identity</text><text x="76" y="303" class="box-sub">account lifecycle</text>
+    <rect x="270" y="230" width="198" height="86" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="288" y="258" class="tiny">02 / AUTH</text><text x="288" y="285" class="box-title">Authentication</text><text x="288" y="303" class="box-sub">OTP · KBA · passkeys</text>
+    <rect x="482" y="230" width="198" height="86" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="500" y="258" class="tiny">03 / RISK</text><text x="500" y="285" class="box-title">Risk controls</text><text x="500" y="303" class="box-sub">abuse · device signals</text>
+    <rect x="694" y="230" width="198" height="86" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="712" y="258" class="tiny">04 / VERIFY</text><text x="712" y="285" class="box-title">Verification</text><text x="712" y="303" class="box-sub">biometric · liveness</text>
+    <rect x="906" y="230" width="236" height="86" rx="3" fill="var(--panel)" stroke="var(--line)"/>
+    <text x="924" y="258" class="tiny">05 / PAYMENTS</text><text x="924" y="285" class="box-title">Recurring payments</text><text x="924" y="303" class="box-sub">timeouts · bounded retries</text>
+  </g>
+  <line x1="157" y1="316" x2="157" y2="342" stroke="var(--line)"/><line x1="369" y1="316" x2="369" y2="342" stroke="var(--line)"/><line x1="581" y1="316" x2="581" y2="342" stroke="var(--line)"/><line x1="793" y1="316" x2="793" y2="342" stroke="var(--line)"/><line x1="1024" y1="316" x2="1024" y2="342" stroke="var(--line)"/>
+  <line x1="157" y1="342" x2="1024" y2="342" stroke="var(--line)" stroke-dasharray="5 7"/>
+  <text x="58" y="369" class="tiny">DANA INDONESIA · 2022—NOW</text>
+  <text x="435" y="369" class="tiny">BEEHIVE DRONES · 2019—2022</text>
+  <text x="790" y="369" class="tiny">MAJAPAHITECH · 2018—2019</text>
+  <text x="58" y="389" class="tiny">INTERNAL ARCHITECTURE · VENDORS · METRICS · DETECTION LOGIC INTENTIONALLY OMITTED</text>
+</svg>
