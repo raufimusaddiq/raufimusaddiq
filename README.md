@@ -84,11 +84,33 @@ Deployment, observability, and security boundaries should be visible while the a
 
 ## Working set
 
-```text
-backend      Java · Spring · Go · PostgreSQL · Kafka
-product      TypeScript · React · Next.js
-operations   Docker · Linux · Cloudflare · GitHub Actions
-```
+<table>
+<tr>
+<td width="33%" valign="top">
+<sub>01 / BACKEND SYSTEMS</sub>
+<br><br>
+<strong>Java · Spring · Go</strong>
+<br>
+<code>PostgreSQL</code> · <code>Kafka</code>
+</td>
+
+<td width="33%" valign="top">
+<sub>02 / PRODUCT SURFACE</sub>
+<br><br>
+<strong>TypeScript · React · Next.js</strong>
+<br>
+<code>APIs</code> · <code>integrations</code>
+</td>
+
+<td width="33%" valign="top">
+<sub>03 / OPERATIONS</sub>
+<br><br>
+<strong>Docker · Linux · Cloudflare</strong>
+<br>
+<code>GitHub Actions</code> · <code>observability</code>
+</td>
+</tr>
+</table>
 
 <br>
 
