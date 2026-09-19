@@ -84,33 +84,9 @@ Deployment, observability, and security boundaries should be visible while the a
 
 ## Working set
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<sub>01 / BACKEND SYSTEMS</sub>
-<br><br>
-<strong>Java · Spring · Go</strong>
-<br>
-<code>PostgreSQL</code> · <code>Kafka</code>
-</td>
-
-<td width="33%" valign="top">
-<sub>02 / PRODUCT SURFACE</sub>
-<br><br>
-<strong>TypeScript · React · Next.js</strong>
-<br>
-<code>APIs</code> · <code>integrations</code>
-</td>
-
-<td width="33%" valign="top">
-<sub>03 / OPERATIONS</sub>
-<br><br>
-<strong>Docker · Linux · Cloudflare</strong>
-<br>
-<code>GitHub Actions</code> · <code>observability</code>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./assets/working-set.svg" width="100%" alt="Raufi Musaddiq working set — backend, product, and operations runtime topology">
+</p>
 
 <br>
 
